@@ -1,8 +1,8 @@
 
-const CountriesList = () => {
+const CountriesList = ({text}) => {
     return (
         <select>
-            <option>Hello</option>
+            <option>{text}</option>
         </select>
     )
 }

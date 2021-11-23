@@ -1,13 +1,12 @@
-// import From from './Select';
-// import To from './Select';
-import Button from './Button';
+import Select from './Select' 
+import Button from './Button'
 
 const CurrencyExchange = () => {
     return (
         <div>
-            {/* <From/>
-            <To/> */}
-            <Button/>
+            <Select text='From'/>
+            <Select text='To'/>
+            <Button text='Convert'/>
         </div>
     )
 }

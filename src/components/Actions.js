@@ -1,11 +1,11 @@
-import CountriesList from "./Select"
+import Select from "./Select"
 import CurrencyExchange from "./CurrencyExchange"
 
 const Actions = () => {
     return (
         <div>
-            <CountriesList/>
             <CurrencyExchange/>
+            <Select text='Countries'/>
         </div>
     )
 }

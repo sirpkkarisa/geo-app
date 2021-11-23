@@ -1,11 +1,7 @@
 
 
-const Button = () => {
-    return (
-        <Button>
-           Click Me 
-        </Button>
-    )
+const Button = ({text}) => {
+    return <button>{text}</button>
 }
 
 export default Button
